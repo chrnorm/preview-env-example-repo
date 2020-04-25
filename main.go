@@ -12,5 +12,5 @@ func main() {
 }
 
 func HelloServer(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(w, "INPUT env variable is: %s", os.Getenv("INPUT"))
+	fmt.Fprintf(w, "variable is: %s", os.Getenv("INPUT"))
 }
