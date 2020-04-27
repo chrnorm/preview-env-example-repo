@@ -12,5 +12,5 @@ func main() {
 }
 
 func HelloServer(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(w, "aaaaaa variable is: %s", os.Getenv("INPUT"))
+	fmt.Fprintf(w, "This is a new version! The variable is: %s", os.Getenv("INPUT"))
 }
